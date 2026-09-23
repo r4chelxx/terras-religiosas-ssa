@@ -14,7 +14,6 @@ export function initTimeline(events, onSelect = () => {}) {
     const button = document.createElement('button');
     button.type = 'button';
     button.textContent = event.rotulo;
-    button.setAttribute('role', 'listitem');
     button.setAttribute('aria-pressed', 'false');
     button.addEventListener('click', () => select(event, button));
     container.append(button);

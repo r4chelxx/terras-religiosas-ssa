@@ -7,7 +7,7 @@ let features = [];
 
 function badges(record) {
   const labels = record.tipo_registro === 'contemporaneo' ? ['REGISTRO CONTEMPORÂNEO'] : ['FONTE HISTÓRICA'];
-  if (record.fonte_secundaria) labels.push('LITERATURA ACADÊMICA');
+  if (record.tipo_fonte_secundaria === 'literatura_academica') labels.push('LITERATURA ACADÊMICA');
   if (record.grau_correspondencia_geografica?.includes('aproxim') || record.grau_correspondencia_geografica?.includes('endereço') || record.grau_correspondencia_geografica?.includes('topônimo')) labels.push('LOCALIZAÇÃO APROXIMADA');
   if (record.status_documental?.includes('investigação') || record.status_documental?.includes('conferir')) labels.push('EM INVESTIGAÇÃO');
   return [...new Set(labels)].map(label => `<span class="badge">${label}</span>`).join('');

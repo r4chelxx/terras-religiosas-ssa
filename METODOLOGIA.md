@@ -12,6 +12,8 @@ Uma instituição aparecer em uma doação, sesmaria, livro de tombo, aforamento
 
 Em relações enfitêuticas, o senhorio direto e o foreiro ocupam posições jurídicas diferentes. A base preserva campos separados para ambos e não os trata como sinônimos. Quando a identidade de uma das partes não estiver documentada, o campo fica vazio.
 
+O campo `relacao_fundiaria` pode inicialmente reproduzir a descrição encontrada na fonte. Já os campos estruturados `senhorio_direto` e `foreiro` só serão preenchidos depois da verificação documental da identidade jurídica das partes; eles não são inferidos a partir dessa descrição.
+
 ## 3. Enfiteuse e propriedade plena
 
 Enfiteuse ou aforamento não equivale automaticamente a propriedade plena. A interface reproduz o tipo de relação indicado pela documentação e evita substituí-lo por termos genéricos como “propriedade” ou “terra da Igreja”. A instituição específica é nomeada sempre que conhecida.
