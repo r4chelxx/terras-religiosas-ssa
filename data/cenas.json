@@ -1,323 +1,467 @@
 [
   {
-    "id": "salvador-hoje",
-    "number": "01",
-    "act": "0",
+    "id": "hoje",
+    "act": "I",
     "mode": "MAP",
+    "time": "hoje",
     "eyebrow": "Salvador hoje",
-    "title": "A cidade parece começar pelas ruas.",
-    "body": "Mas documentos fundiários preservam camadas anteriores à paisagem atual. O mapa começa amplo, sem desenhar limites históricos.",
+    "title": "A cidade que vemos",
+    "body": "O mapa parece começar pelas ruas que conhecemos. Os documentos contam outra história.",
     "camera": {
       "center": [
         -38.526,
         -13.003
       ],
-      "zoom": 13.2,
-      "bearing": 0,
-      "pitch": 0
+      "zoom": 13.2
     },
     "visibleRecordIds": [],
-    "mapCaption": "Graça · Barra · Vitória — mapa atual",
+    "mapLayer": "Cidade contemporânea · Graça, Vitória e Barra",
+    "evidenceType": "located",
     "sourceIds": []
   },
   {
-    "id": "graca-entrada",
-    "number": "02",
-    "act": "1",
+    "id": "graca",
+    "act": "II",
     "mode": "MAP",
-    "eyebrow": "Graça como ponto de entrada",
-    "title": "Uma âncora, não um território.",
-    "body": "O complexo religioso da Graça é uma referência institucional atual. Seu ponto não representa a extensão de terras históricas.",
+    "time": "hoje",
+    "eyebrow": "Antes dos lotes, uma instituição",
+    "title": "Mosteiro da Graça",
+    "body": "Este ponto é uma localização atual. Não é o limite das terras históricas do mosteiro.",
     "camera": {
       "center": [
         -38.52382,
         -12.999528
       ],
-      "zoom": 15.8,
-      "bearing": 0,
-      "pitch": 0
+      "zoom": 15.6
     },
     "visibleRecordIds": [
       "mosteiro-graca"
     ],
+    "mapLayer": "● Âncora contemporânea do complexo religioso",
     "evidenceType": "located",
-    "mapCaption": "Mosteiro da Graça · âncora institucional atual",
     "sourceIds": []
   },
   {
     "id": "catarina",
-    "number": "03",
-    "act": "1",
+    "act": "II",
     "mode": "MICROSTORY",
-    "eyebrow": "Catarina Paraguaçu",
+    "time": "1628",
+    "eyebrow": "Micro-história 01 · Catarina Paraguaçu",
     "title": "Uma terra atravessa gerações",
-    "body": "A reportagem investiga a cadeia documental entre Catarina Paraguaçu, terras associadas à Graça e a doação de 1628 — sem preencher lacunas genealógicas.",
-    "milestone": "1628 · marco documental em apuração",
-    "known": "O filme Cidade do Salvador, de 1949, contém imagens da Igreja da Graça, pinturas e sepultura de Catharina Álvares de Paraguassu.",
-    "unknown": "A genealogia documental e a transmissão fundiária integral até a doação de 1628 ainda não estão registradas nas fontes desta base.",
-    "media": {
-      "placeholder": "[DOCUMENTO / RETRATO — DIGITALIZAÇÃO E DIREITOS PENDENTES]",
-      "label": "Catarina / Igreja da Graça",
-      "meta": "Autoria, acervo e crédito a confirmar",
-      "status": "Conteúdo em apuração; não publicado como fato"
-    },
-    "sourceIds": [],
+    "body": "O nome de Catarina Paraguaçu aparece repetidamente quando a história da Graça é contada. Mas chegar de Catarina às relações fundiárias que aparecem séculos depois exige mais do que repetir uma tradição histórica.\n\nA investigação tenta reconstruir essa passagem documento por documento.\n\nA referência de 1628 é um dos marcos dessa busca. Ela não autoriza, sozinha, a desenhar uma linha contínua entre uma personagem do século XVI, seus descendentes e os terrenos que aparecem posteriormente nos registros do Mosteiro da Graça.",
+    "known": "O filme Cidade do Salvador, de 1949, registra a Igreja da Graça e associa o local à memória de Catharina Álvares de Paraguassu. Documentos e literatura histórica também relacionam a formação patrimonial da instituição à história dessas terras.",
+    "unknown": "A cadeia documental completa entre Catarina, seus descendentes, as terras associadas à Graça e os registros posteriores ainda não está integralmente reconstruída.",
     "mediaIds": [
       "film-1949-salvador"
+    ],
+    "sourceIds": [
+      "bcc-film-1949"
     ]
   },
   {
-    "id": "mosteiro-graca-historia",
-    "number": "04",
-    "act": "1",
-    "mode": "MICROSTORY",
-    "eyebrow": "Instituição",
-    "title": "Mosteiro da Graça",
-    "body": "Por que esta instituição aparece na documentação fundiária? A micro-história institucional será completada apenas com fontes identificadas.",
-    "known": "O complexo possui localização contemporânea confirmada e aparece como instituição nos registros reunidos nesta base.",
-    "unknown": "A extensão e a continuidade de cada relação territorial exigem cadeias documentais próprias; não formam um polígono único por inferência.",
-    "media": {
-      "placeholder": "[FOTOGRAFIA HISTÓRICA — DIREITOS/ARQUIVO PENDENTES]",
-      "label": "Mosteiro de Nossa Senhora da Graça",
-      "meta": "Data, autoria, acervo e crédito pendentes",
-      "status": "Placeholder editorial"
-    },
-    "sourceIds": []
+    "id": "mosteiro",
+    "act": "II",
+    "mode": "MAP_MICROSTORY",
+    "time": "1628",
+    "eyebrow": "Micro-história 02 · instituição",
+    "title": "Quando uma instituição também é personagem do território",
+    "body": "Nos documentos que começaram a aparecer durante a apuração, o Mosteiro da Graça não surge apenas como edifício religioso.\n\nSurge também como senhorio direto, referência territorial e parte de relações de aforamento que atravessam períodos diferentes da história urbana.\n\nIsso não significa que todos esses registros formem um único território contínuo.\n\nCada relação precisa ser reconstruída separadamente.",
+    "known": null,
+    "unknown": null,
+    "sourceIds": [],
+    "camera": null,
+    "visibleRecordIds": [
+      "mosteiro-graca"
+    ],
+    "mapLayer": "● Localização atual do complexo religioso. O ponto não representa a extensão histórica de suas terras."
   },
   {
-    "id": "dois-direitos",
-    "number": "05",
-    "act": "2",
+    "id": "direitos",
+    "act": "III",
     "mode": "EXPLAINER",
-    "eyebrow": "Interlúdio explicativo",
-    "title": "UM TERRENO. DOIS DIREITOS.",
+    "time": null,
+    "eyebrow": "Mecanismo jurídico",
+    "title": "Um terreno. Dois direitos.",
+    "body": "Antes de continuar, é preciso separar posições jurídicas que coexistem sobre o mesmo terreno.",
     "sourceIds": []
   },
   {
-    "id": "mato-da-costa",
-    "number": "06",
-    "act": "3",
-    "mode": "MAP",
-    "eyebrow": "Mato da Costa · 1827–1832",
-    "title": "Um evento existe sem caber num pin.",
-    "body": "Em 1827, João Crisóstomo da Silva pediu o aforamento do chamado Mato da Costa, situado na Graça. A autorização posterior aparece em 1832. A localização exata não foi reconstruída.",
+    "id": "mato",
+    "act": "IV",
+    "mode": "MAP_DOCUMENT",
+    "time": "1827",
+    "eyebrow": "Mato da Costa",
+    "title": "Um pedido sem coordenadas",
+    "body": "Em 1827, João Crisóstomo da Silva pediu o aforamento de uma área chamada nos registros de Mato da Costa, na Graça.\n\nO pedido inicialmente não prosperou.\n\nCinco anos depois, a documentação volta a registrar decisões relacionadas ao aforamento de terras na região.\n\nSabemos o nome usado pelos documentos. Ainda não sabemos colocar esse terreno com precisão sobre o mapa atual.",
     "camera": {
       "center": [
         -38.524,
         -13.0
       ],
-      "zoom": 14.3,
-      "bearing": 0,
-      "pitch": 0
+      "zoom": 14.3
     },
     "visibleRecordIds": [],
+    "mapLayer": "○ Localização exata desconhecida · Graça é apenas referência ampla",
+    "document": {
+      "title": "Códice 158",
+      "detail": "fólios 11 e 24 · conforme literatura consultada · original ainda pendente de consulta"
+    },
     "evidenceType": "unlocated",
-    "mapCaption": "Mato da Costa · evento não geolocalizado",
-    "note": "Fonte de trabalho: Códice 158, fólios 11 e 24. O original ainda aguarda consulta.",
     "sourceIds": [
       "codice-158",
       "hernandez"
     ]
   },
   {
-    "id": "aforamentos-1832",
-    "number": "07",
-    "act": "3",
+    "id": "aforamentos",
+    "act": "V",
     "mode": "DOCUMENT",
-    "eyebrow": "Aforamentos de 1832",
-    "title": "Medidas não são coordenadas.",
-    "body": "Registros mencionam terrenos de 8 × 30 braças e 30 × 40 braças na Graça. As dimensões não autorizam inventar orientação ou posição.",
-    "evidenceType": "unlocated",
-    "media": {
-      "placeholder": "[DOCUMENTO — DIGITALIZAÇÃO PENDENTE]",
-      "label": "Códice 165, fólio 64",
-      "meta": "8 × 30 braças · 30 × 40 braças",
-      "status": "Referência recuperada em literatura; original pendente"
+    "time": "1832",
+    "eyebrow": "O território começa a ser dividido",
+    "title": "Quando o território começa a ganhar medidas",
+    "body": "Os documentos registram dimensões, mas não entregam posição e orientação contemporâneas.",
+    "document": {
+      "title": "8 × 30 braças  ·  30 × 40 braças",
+      "detail": "ESQUEMA — NÃO GEOGRÁFICO · Códice 165, fólio 64"
     },
+    "evidenceType": "unlocated",
     "sourceIds": [
       "codice-165",
       "hernandez"
     ]
   },
   {
-    "id": "campo-graca-1924",
-    "number": "08",
-    "act": "4",
-    "mode": "DOCUMENT",
-    "eyebrow": "1924 · paisagem",
-    "title": "Campo da Graça em movimento",
-    "body": "A paisagem histórica contextualiza a transformação urbana; não identifica uma parcela fundiária específica.",
-    "media": {
-      "placeholder": "[VÍDEO OPCIONAL — LICENCIAMENTO/AUDITORIA PENDENTE]",
-      "label": "O Príncipe Herdeiro da Itália em Terras do Brasil",
-      "meta": "A. Botelho Film · 1924 · Campo da Graça",
-      "status": "Página e direitos no Wikimedia Commons ainda devem ser auditados"
-    },
-    "sourceIds": [],
+    "id": "campo-1924",
+    "act": "VI",
+    "mode": "MEDIA",
+    "time": "1924",
+    "eyebrow": "Salvador aparece em movimento",
+    "title": "Campo da Graça · 1924",
+    "body": "O filme registra a paisagem histórica. Ele serve como documento de contexto, não como prova de uma parcela fundiária específica.",
     "mediaIds": [
       "film-1924-principe"
+    ],
+    "sourceIds": [
+      "bcc-film-1924"
     ]
   },
   {
+    "id": "compare-1924",
+    "act": "VI",
+    "mode": "COMPARE",
+    "time": "1924",
+    "eyebrow": "Antigo × atual 01",
+    "title": "O mesmo lugar precisa do mesmo olhar",
+    "body": "A comparação só será publicada depois de confirmar o enquadramento e produzir a fotografia contemporânea equivalente.",
+    "compare": {
+      "historicalCaption": "Campo da Graça no filme de 1924 · frame ainda não licenciado",
+      "currentCaption": "REENQUADRAMENTO ATUAL PLOT · FOTOGRAFIA A PRODUZIR",
+      "dateHistorical": "1924",
+      "dateCurrent": "hoje",
+      "historicalCredit": "A. Botelho Film · arquivo e direitos em auditoria",
+      "currentCredit": "PLOT · produção pendente",
+      "rightsStatus": "Comparação estrutural; nenhuma imagem publicada",
+      "historicalMediaId": "film-1924-principe",
+      "historicalImage": null,
+      "currentImage": null,
+      "historicalSourceUrl": "https://www.bcc.org.br/filmes/889290"
+    },
+    "sourceIds": []
+  },
+  {
     "id": "rede-1930",
-    "number": "09",
-    "act": "4",
+    "act": "VII",
     "mode": "MAP",
-    "eyebrow": "c. 1930 · uma rede",
-    "title": "557 terrenos foreiros.",
-    "body": "A pesquisa de Maria Herminia Olivera Hernández registra 521 terrenos edificados, distribuídos por 24 ruas e três praças, entre 557 terrenos foreiros em Graça e Barra.",
-    "metric": "557 · 521 · 24 · 3",
+    "time": "1930",
+    "eyebrow": "Uma rede que já era grande",
+    "title": "557",
+    "body": "Por volta de 1930, a escala documental já era outra.\n\nA pesquisa de Maria Herminia Olivera Hernández registra 557 terrenos foreiros em Graça e Barra. Desses, 521 estavam edificados e se distribuíam por 24 ruas e três praças.\n\nAinda não sabemos colocar individualmente esses 557 registros sobre o mapa. Por isso eles aparecem aqui como escala documental — não como 557 pontos inventados.",
+    "metric": [
+      "521 edificados",
+      "24 ruas",
+      "3 praças"
+    ],
     "camera": {
       "center": [
         -38.527,
         -13.002
       ],
-      "zoom": 13.6,
-      "bearing": 0,
-      "pitch": 0
+      "zoom": 13.6
     },
     "visibleRecordIds": [],
-    "mapCaption": "Escala de bairro · nenhum ponto fictício",
-    "note": "Dado de trabalho: conferir tabela e página exatas e, idealmente, o Códice 347 antes da publicação.",
+    "mapLayer": "Escala territorial · dados agregados, sem pontos inventados",
+    "note": "Tabela/página exata e Códice 347 ainda precisam ser auditados.",
     "sourceIds": [
       "hernandez",
       "codice-347"
     ]
   },
   {
-    "id": "transformacao-1939-1949",
-    "number": "10",
-    "act": "4",
-    "mode": "DOCUMENT",
-    "eyebrow": "1939–1949",
-    "title": "A cidade muda de forma.",
-    "body": "Filmes de arquivo podem registrar ruas, bondes, obras e bairros residenciais. A reportagem não depende desses vídeos para ser compreendida.",
-    "media": {
-      "placeholder": "[VÍDEO OPCIONAL — LICENCIAMENTO PENDENTE]",
-      "label": "Cidade do Salvador: Tradição e Progresso (1939) / Cidade do Salvador (1949)",
-      "meta": "Tupi Filmes Brasileiros / INCE, direção Humberto Mauro",
-      "status": "Visionamento, decupagem e direitos pendentes"
-    },
-    "sourceIds": [],
+    "id": "cidade-1939",
+    "act": "VII",
+    "mode": "MEDIA",
+    "time": "1939",
+    "eyebrow": "A cidade se transforma",
+    "title": "Ruas, obras e bondes",
+    "body": "O inventário registra o filme como candidato para mostrar a modernização urbana. O uso de trecho depende de verificação e licenciamento.",
     "mediaIds": [
-      "film-1939-tradicao",
-      "film-1949-salvador"
+      "film-1939-tradicao"
+    ],
+    "sourceIds": [
+      "bcc-film-1939"
     ]
   },
   {
-    "id": "lachenmayer",
-    "number": "11",
-    "act": "4",
-    "mode": "DOCUMENT",
-    "eyebrow": "Cartografia histórica",
-    "title": "Ler o mapa antes de desenhá-lo.",
-    "body": "A sequência futura vai do raster original aos pontos de controle, vetores interpretados e incerteza. Até a auditoria, nenhuma informação ausente será completada.",
-    "media": {
-      "placeholder": "[MAPA HISTÓRICO — ASSET PENDENTE]",
-      "label": "Planta Parcial da Cidade do Salvador",
-      "meta": "Paulo Lachenmayer · georreferenciamento em andamento",
-      "status": "Reprodução e geometria ainda não publicadas"
+    "id": "compare-1939",
+    "act": "VII",
+    "mode": "COMPARE",
+    "time": "1939",
+    "eyebrow": "Antigo × atual 02",
+    "title": "Uma correspondência ainda por produzir",
+    "body": "Nenhuma equivalência de enquadramento será afirmada antes da decupagem e da verificação do local.",
+    "compare": {
+      "historicalCaption": "Frame histórico verificável — seleção pendente",
+      "currentCaption": "REENQUADRAMENTO CONTEMPORÂNEO · LOCAL E ÂNGULO A CONFIRMAR",
+      "dateHistorical": "1939",
+      "dateCurrent": "hoje",
+      "historicalCredit": "Tupi Filmes Brasileiros · direitos pendentes",
+      "currentCredit": "PLOT · produção pendente",
+      "rightsStatus": "Duas imagens pendentes; componente demonstra a interação final",
+      "historicalMediaId": "film-1939-tradicao",
+      "historicalImage": null,
+      "currentImage": null,
+      "historicalSourceUrl": "https://www.bcc.org.br/filmes/889071"
     },
+    "sourceIds": []
+  },
+  {
+    "id": "cidade-1949",
+    "act": "VII",
+    "mode": "MEDIA",
+    "time": "1949",
+    "eyebrow": "Graça, Vitória e a cidade moderna",
+    "title": "A paisagem também é documento",
+    "body": "O inventário confirma a presença de Igreja da Graça, Praia da Vitória, Porto da Barra, Avenida Sete e São Bento. A decupagem e os direitos permanecem pendentes.",
+    "mediaIds": [
+      "film-1949-salvador"
+    ],
+    "sourceIds": [
+      "bcc-film-1949"
+    ]
+  },
+  {
+    "id": "compare-1949",
+    "act": "VII",
+    "mode": "COMPARE",
+    "time": "1949",
+    "eyebrow": "Antigo × atual 03",
+    "title": "A transformação precisa ser comparável",
+    "body": "A fotografia contemporânea deverá repetir um enquadramento confirmado, não apenas ilustrar o bairro.",
+    "compare": {
+      "historicalCaption": "Graça / Barra / Vitória · frame a selecionar após decupagem",
+      "currentCaption": "REENQUADRAMENTO ATUAL PLOT · FOTOGRAFIA A PRODUZIR",
+      "dateHistorical": "1949",
+      "dateCurrent": "hoje",
+      "historicalCredit": "INCE; direção Humberto Mauro · direitos pendentes",
+      "currentCredit": "PLOT · produção pendente",
+      "rightsStatus": "Comparação ainda não publicável",
+      "historicalMediaId": "film-1949-salvador",
+      "historicalImage": null,
+      "currentImage": null,
+      "historicalSourceUrl": "https://www.bcc.org.br/filmes/443380"
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "lachenmayer",
+    "act": "VIII",
+    "mode": "CARTOGRAPHY",
+    "time": "1949",
+    "eyebrow": "O mapa que muda a investigação",
+    "title": "O mapa que muda a investigação",
+    "body": "A planta de Paulo Lachenmayer destaca terras foreiras aos Mosteiros de São Bento e Nossa Senhora da Graça. Este mapa não será redesenhado por inteligência artificial.",
+    "pipeline": [
+      "Mapa original",
+      "Pontos de controle",
+      "Georreferenciamento",
+      "Vetorização",
+      "Incerteza",
+      "Comparação com a cidade atual"
+    ],
     "sourceIds": [
       "lachenmayer"
     ]
   },
   {
-    "id": "clemente-mariani",
-    "number": "12",
-    "act": "5",
+    "id": "compare-map",
+    "act": "VIII",
+    "mode": "MAP_COMPARE",
+    "time": "1949",
+    "eyebrow": "Comparação cartográfica",
+    "title": "Limites só entram depois da auditoria",
+    "body": "GEORREFERENCIAMENTO EM PRODUÇÃO — NÃO PUBLICAMOS LIMITES AINDA.",
+    "sourceIds": [
+      "lachenmayer"
+    ]
+  },
+  {
+    "id": "loteamento",
+    "act": "IX",
     "mode": "MAP",
-    "eyebrow": "1956 · Loteamento Clemente Mariani",
-    "title": "A cidade loteia.",
-    "body": "O processo municipal 33.464/56 registra aprovação em 1956: área total de 24.975 m², 30 lotes e promoção pela Companhia de Imóveis e Representações S/A.",
+    "time": "1956",
+    "eyebrow": "A cidade vira loteamento",
+    "title": "A cidade vira loteamento",
+    "body": "Em 1956, outra escala aparece nos documentos.\n\nO Loteamento Clemente Mariani organiza em lotes uma área que a investigação tenta relacionar espacialmente às transformações anteriores da região.\n\nOs dados de trabalho registram o processo municipal 33.464/56, área de 24.975 m², 30 lotes e a Companhia de Imóveis e Representações S/A como promotora.\n\nA fonte administrativa original ainda precisa entrar no catálogo antes da publicação.",
     "camera": {
       "center": [
         -38.5305,
         -13.004
       ],
-      "zoom": 14.8,
-      "bearing": 0,
-      "pitch": 0
+      "zoom": 14.8
     },
     "visibleRecordIds": [],
-    "evidenceType": "reconstructed",
-    "mapCaption": "Clemente Mariani · geometria ainda não publicada",
-    "note": "[GEOMETRIA — RECONSTRUÇÃO QGIS PENDENTE]. A relação com João Pondé, Raul Drumond e Presidente Kennedy não constitui um perímetro. A referência documental do Inventário de Loteamentos/OCEPLAN ou da documentação municipal ainda precisa ser incorporada ao catálogo de fontes.",
+    "mapLayer": "╍ Planta/reconstrução ainda indisponível · nenhum perímetro publicado",
+    "note": "Inventário de Loteamentos/OCEPLAN ou documentação municipal pendente no catálogo. Não atribuir estes dados a Lachenmayer.",
     "sourceIds": []
   },
   {
-    "id": "lote-25",
-    "number": "13",
-    "act": "5",
+    "id": "eixos",
+    "act": "IX",
     "mode": "MAP",
-    "eyebrow": "Do loteamento ao lote 25",
-    "title": "Quatro lados não fecham a história.",
-    "body": "O lote é descrito com frente de 20,00 m, laterais de 29,46 m e 24,98 m, fundos de 28,00 m e área declarada de 648,37 m². Matrículas de trabalho: 16.511 e 16.505.",
-    "camera": {
-      "center": [
-        -38.531,
-        -13.004
-      ],
-      "zoom": 15.7,
-      "bearing": 0,
-      "pitch": 0
-    },
+    "time": "1956",
+    "eyebrow": "Eixos contemporâneos de referência",
+    "title": "Três nomes no mapa atual",
+    "body": "Rua Dr. João Pondé · Rua Raul Drumond · Rua Presidente Kennedy. Os eixos oficiais ainda precisam ser incorporados; os nomes não formam um perímetro histórico.",
+    "camera": null,
     "visibleRecordIds": [],
-    "evidenceType": "reconstructed",
-    "mapCaption": "Lote 25 · posição em reconstrução",
-    "note": "A reconstrução máxima calculada é aproximadamente 643,37 m². O protótipo não força a geometria nem a posiciona sem controle geográfico.",
+    "mapLayer": "Eixos a incorporar: João Pondé · Raul Drumond · Presidente Kennedy",
     "sourceIds": []
   },
   {
-    "id": "lote-edificio-unidade",
-    "number": "14",
-    "act": "5",
+    "id": "planta-loteamento",
+    "act": "IX",
+    "mode": "MAP",
+    "time": "1956",
+    "eyebrow": "Camada futura",
+    "title": "Da planta ao lote",
+    "body": "A reconstrução Clemente Mariani entrará aqui quando existir GeoJSON auditado. Até lá, a ausência da camada permanece visível.",
+    "camera": null,
+    "visibleRecordIds": [],
+    "mapLayer": "╍ GEOMETRIA — RECONSTRUÇÃO QGIS PENDENTE",
+    "sourceIds": []
+  },
+  {
+    "id": "lote25",
+    "act": "X",
+    "mode": "MAP_TECHNICAL",
+    "time": "1956",
+    "eyebrow": "Lote 25",
+    "title": "Quatro lados não fecham a história",
+    "body": "Quando tratamos os quatro lados descritos nos documentos como segmentos retos e as medidas como exatas, surge um problema: a área declarada não pode ser alcançada geometricamente.\n\nIsso não prova erro registral.\n\nPode refletir arredondamento, descrição simplificada, lados não perfeitamente retos ou outra característica que os documentos disponíveis ainda não permitem resolver.",
+    "camera": null,
+    "visibleRecordIds": [],
+    "mapLayer": "╍ Lote 25 · reconstrução local sem posição geográfica",
+    "measurements": [
+      "20,00 m",
+      "29,46 m",
+      "24,98 m",
+      "28,00 m"
+    ],
+    "declaredArea": "648,37 m²",
+    "reconstructedArea": "≈ 643,37 m²",
+    "difference": "≈ 5,00 m² · 0,77%",
+    "sourceIds": []
+  },
+  {
+    "id": "transformacao",
+    "act": "X",
     "mode": "TRANSFORM",
-    "eyebrow": "Mudança de unidade documental",
-    "title": "Do território à matrícula",
-    "body": "A escala documental muda. Lote, edifício e unidade não são equivalentes.",
+    "time": "1956",
+    "eyebrow": "Do lote ao prédio",
+    "title": "A unidade documental muda",
+    "body": "Terreno, lote, edifício e apartamento não são a mesma coisa. Uma matrícula de unidade não equivale ao perímetro original do terreno.",
+    "stages": [
+      "Território",
+      "Aforamento",
+      "Loteamento",
+      "Lote 25",
+      "Edifício",
+      "Unidade",
+      "Matrícula"
+    ],
     "sourceIds": []
   },
   {
-    "id": "rede-documental",
-    "number": "15",
-    "act": "6",
+    "id": "documento-predio",
+    "act": "X",
+    "mode": "MICROSTORY_LOT",
+    "time": "presente",
+    "eyebrow": "Micro-história 03 · Lote 25",
+    "title": "Um documento sob um prédio",
+    "body": "A investigação não chegou ao lote 25 por um mapa do século XIX.\n\nChegou por um apartamento.",
+    "reveal": [
+      "Apartamento",
+      "Edifício Santa Marta / Santa Maria",
+      "Lote 25",
+      "Loteamento Clemente Mariani",
+      "Descrição do terreno",
+      "Mosteiro da Graça"
+    ],
+    "known": "É nessa passagem, de uma unidade contemporânea para a descrição do terreno sobre o qual o edifício foi construído, que a relação fundiária reaparece. Matrículas de trabalho: 16.511 e 16.505.",
+    "unknown": "A matrícula da unidade não representa o terreno inteiro. A posição geográfica defensável do lote e a cadeia documental completa ainda dependem de auditoria.",
+    "sourceIds": []
+  },
+  {
+    "id": "outros-casos",
+    "act": "XI",
     "mode": "MAP",
-    "eyebrow": "Não é um caso isolado",
-    "title": "Outros documentos, outros endereços.",
-    "body": "Rodrigues Lima, Morro Ipiranga, antigo Hospital Espanhol e Jardim Porto da Barra entram como registros independentes. Uma descrição histórica não determina a situação enfitêutica atual.",
+    "time": "presente",
+    "eyebrow": "Não era um caso isolado",
+    "title": "Não era um caso isolado",
+    "body": "Outros documentos levaram a outros endereços. Os casos entram em sequência: pontos auditados no mapa e os demais na faixa documental, sem coordenadas inventadas.",
     "camera": {
       "center": [
         -38.528,
         -13.004
       ],
-      "zoom": 13.7,
-      "bearing": 0,
-      "pitch": 0
+      "zoom": 13.7
     },
     "visibleRecordIds": [
+      "mosteiro-graca",
       "antigo-hospital-espanhol"
     ],
-    "evidenceType": "located",
-    "mapCaption": "Rede documental · apenas um ponto auditável nesta base",
+    "mapLayer": "Rede documental · evidências localizadas e registros sem geometria",
     "sourceIds": []
   },
   {
     "id": "sao-bento",
-    "number": "16",
-    "act": "6",
+    "act": "XI",
     "mode": "MICROSTORY",
-    "eyebrow": "Instituição · São Bento",
-    "title": "Uma ponte que não apaga as diferenças",
-    "body": "Jardim Porto da Barra abre uma futura micro-história sobre o Mosteiro de São Bento, sem confundi-lo com o Mosteiro da Graça.",
-    "known": "Dado de trabalho: o registro do Jardim Porto da Barra descreve o terreno como foreiro ao Mosteiro de São Bento. A fonte documental contemporânea ainda precisa ser incorporada ao catálogo de fontes.",
-    "unknown": "A matrícula-mãe 19.258 e a descrição territorial ainda precisam ser recuperadas antes de qualquer perímetro.",
-    "media": {
-      "placeholder": "[DOCUMENTO — DIGITALIZAÇÃO PENDENTE]",
-      "label": "Jardim Porto da Barra",
-      "meta": "Matrícula 23.991 / matriz 19.258",
-      "status": "Ponte narrativa em apuração"
+    "time": "presente",
+    "eyebrow": "Micro-história 04 · São Bento",
+    "title": "Outro mosteiro, outra cadeia",
+    "body": "Nem todos os caminhos documentais levam ao Mosteiro da Graça.\n\nNo Jardim Porto da Barra, a documentação de trabalho aponta para o Mosteiro de São Bento.\n\nIsso não autoriza juntar os dois mosteiros numa única mancha territorial.\n\nSão cadeias documentais diferentes e precisam continuar separadas.",
+    "known": "Jardim Porto · Av. Princesa Isabel, 179 · matrícula 23.991 · matrícula-mãe 19.258.",
+    "unknown": "Matrícula-mãe ainda necessária para reconstrução territorial. O caso precisa de fonte contemporânea própria no catálogo.",
+    "sourceIds": []
+  },
+  {
+    "id": "final-map",
+    "act": "Fechamento",
+    "mode": "FINAL_MAP",
+    "time": "presente",
+    "eyebrow": "Clímax visual",
+    "title": "O que encontramos até aqui",
+    "body": "Cada marca representa uma pista documental. Nem toda pista possui a mesma precisão geográfica — e nenhuma delas, isoladamente, prova propriedade religiosa atual.",
+    "camera": {
+      "center": [
+        -38.528,
+        -13.004
+      ],
+      "zoom": 13.2
     },
+    "visibleRecordIds": "all-located",
+    "mapLayer": "Todas as localizações atuais auditadas · registros sem geometria seguem no painel",
     "sourceIds": []
   }
 ]

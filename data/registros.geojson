@@ -153,6 +153,60 @@
         "status_documental": "localização institucional confirmada",
         "observacoes": "A âncora localiza o mosteiro. Não deve ser interpretada como limite do patrimônio territorial."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "centro-medico",
+        "titulo": "Centro Médico",
+        "instituicao": null,
+        "tipo_registro": "contemporaneo",
+        "relacao_fundiaria": "Relação fundiária em investigação",
+        "endereco_atual": null,
+        "area": "aproximadamente 1.152 m²",
+        "dimensoes": "28,05 × 41,20 m ≈ 1.155,66 m²",
+        "matricula_atual": "36.058",
+        "grau_correspondencia_geografica": "Endereço e posição ainda não incorporados à base; reconstrução métrica local não georreferenciada",
+        "status_documental": "documentação de trabalho; fonte contemporânea pendente no catálogo",
+        "observacoes": "A diferença entre área documental e reconstrução local não é tratada como erro registral."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "farol-barra-flat",
+        "titulo": "Farol Barra Flat",
+        "instituicao": null,
+        "tipo_registro": "contemporaneo",
+        "relacao_fundiaria": "Documentação de trabalho indica situação mista — parte própria / parte foreira",
+        "endereco_atual": "Av. Oceânica, 409 — Barra",
+        "area": "1.513,95 m²",
+        "dimensoes": null,
+        "matricula_atual": "27.165",
+        "grau_correspondencia_geografica": "endereço conhecido; coordenada ainda não auditada",
+        "status_documental": "documentação de trabalho; fonte contemporânea pendente no catálogo",
+        "observacoes": "Não representar todo o terreno como foreiro."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "mansao-bahiano-tenis",
+        "titulo": "Mansão Bahiano de Tênis",
+        "instituicao": null,
+        "tipo_registro": "contemporaneo",
+        "relacao_fundiaria": "Documentação de trabalho indica situação parcialmente própria / parcialmente foreira",
+        "endereco_atual": "Av. Princesa Isabel, 855 — Barra",
+        "area": null,
+        "dimensoes": null,
+        "matricula_atual": null,
+        "grau_correspondencia_geografica": "endereço conhecido; coordenada ainda não auditada",
+        "status_documental": "evidência em verificação; fonte contemporânea pendente no catálogo",
+        "observacoes": "Preservar o caráter parcial da relação e não publicar perímetro sem documentação."
+      }
     }
   ]
 }
