@@ -1,71 +1,18 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Exploração jornalística de relações documentais entre terrenos de Salvador e instituições religiosas.">
-  <title>Quem foi dono do chão de Salvador?</title>
-  <link rel="preconnect" href="https://unpkg.com">
-  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
-  <header class="hero">
-    <p class="eyebrow">PLOT. · PROTÓTIPO EM CONSTRUÇÃO</p>
-    <h1>Quem foi dono do chão de Salvador?</h1>
-    <p class="deck">Uma exploração documental de terras ligadas a instituições religiosas — das doações coloniais aos rastros registrais contemporâneos.</p>
-    <p class="place">Salvador, Bahia</p>
-  </header>
-
-  <main id="conteudo">
-    <section class="timeline-section" aria-labelledby="tempo-titulo">
-      <div class="section-heading"><p class="kicker">Cronologia documental</p><h2 id="tempo-titulo">Rastros no tempo</h2></div>
-      <div id="timeline" class="timeline" aria-label="Períodos da investigação"></div>
-      <div id="timeline-detail" class="timeline-detail" aria-live="polite"></div>
-    </section>
-
-    <section class="map-section" aria-labelledby="mapa-titulo">
-      <div class="section-heading map-heading">
-        <div><p class="kicker">Cartografia em construção</p><h2 id="mapa-titulo">Referências territoriais</h2></div>
-        <p class="map-warning"><strong>Atenção:</strong> Os pontos representam referências documentais. Não representam limites de propriedade.</p>
-      </div>
-      <div class="map-layout">
-        <div class="map-wrap">
-          <div id="map" aria-label="Mapa interativo das referências documentais em Salvador"></div>
-          <div class="legend" aria-label="Legenda"><span class="legend-dot"></span> Registro com localização no mapa</div>
-        </div>
-        <aside id="record-panel" class="record-panel" aria-labelledby="panel-title" tabindex="-1">
-          <p class="panel-placeholder">Selecione um registro na base documental ou um ponto no mapa para consultar sua ficha.</p>
-        </aside>
-      </div>
-    </section>
-
-    <section class="database" aria-labelledby="base-titulo">
-      <div class="section-heading"><p class="kicker">Dados abertos para auditoria</p><h2 id="base-titulo">Base inicial</h2></div>
-      <div class="filters" role="group" aria-label="Filtrar registros por período">
-        <button class="filter active" data-filter="todos" aria-pressed="true">Todos</button>
-        <button class="filter" data-filter="contemporaneo" aria-pressed="false">Contemporâneos</button>
-        <button class="filter" data-filter="historico" aria-pressed="false">Históricos</button>
-      </div>
-      <p id="result-count" class="result-count" aria-live="polite"></p>
-      <div id="record-list" class="record-list"></div>
-    </section>
-
-    <section class="method" aria-labelledby="metodo-titulo">
-      <div class="section-heading"><p class="kicker">Nota metodológica</p><h2 id="metodo-titulo">Como ler este mapa</h2></div>
-      <p class="method-intro">Um ponto indica uma relação documental com o território, não necessariamente propriedade atual da instituição religiosa. Endereços contemporâneos são apresentados como referências de localização; limites de lote só serão desenhados quando houver geometria verificável. Registros históricos sem localização segura permanecem fora do mapa.</p>
-      <dl class="categories">
-        <div><dt>REGISTRO CONTEMPORÂNEO</dt><dd>Matrícula, ato público ou documento recente.</dd></div>
-        <div><dt>FONTE HISTÓRICA</dt><dd>Códice, escritura, tombo ou transcrição documental.</dd></div>
-        <div><dt>LOCALIZAÇÃO APROXIMADA</dt><dd>Topônimo ou endereço conhecido, mas sem polígono cadastral comprovado.</dd></div>
-        <div><dt>EM INVESTIGAÇÃO</dt><dd>Relação identificada, mas cadeia documental ainda incompleta.</dd></div>
-      </dl>
-      <p><a class="text-link" href="./METODOLOGIA.md">Leia a metodologia completa →</a></p>
-    </section>
-  </main>
-  <footer><p>PLOT. · Jornalismo investigativo em construção</p><p>V0.1 · Os dados serão progressivamente auditados.</p></footer>
-  <script src="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.js"></script>
-  <script type="module" src="./js/app.js"></script>
-</body>
-</html>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Investigação do PLOT sobre terras, aforamentos e instituições religiosas em Salvador."><title>Quem foi dono do chão de Salvador?</title><link rel="preconnect" href="https://unpkg.com"><link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css"><link rel="stylesheet" href="./css/style.css"></head><body><a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+<header class="hero"><p class="eyebrow">PLOT. · INVESTIGAÇÃO EM DESENVOLVIMENTO</p><h1>Quem foi dono do chão de Salvador?</h1><p class="deck">Por baixo de prédios, ruas e condomínios, documentos ainda registram outra geografia: terras aforadas por instituições religiosas e transformadas pela expansão da cidade.</p><p class="place">Graça · Barra · Vitória — Salvador, Bahia</p><div class="scroll-cue">ROLE PARA COMEÇAR ↓</div></header>
+<main id="conteudo">
+<section class="prologue"><p class="kicker">Como ler esta investigação</p><p class="display-copy">Um endereço atual não é um limite histórico. Uma sobreposição no mapa não prova continuidade jurídica. Aqui, cada camada aparece apenas até onde a evidência permite.</p><div class="evidence-grid"><div><strong>●</strong><span>referência atual localizada</span></div><div><strong>╍</strong><span>geometria reconstruída</span></div><div><strong>○</strong><span>documento sem localização exata</span></div></div></section>
+<section class="story" aria-label="Narrativa cartográfica"><div class="story-map"><div id="map"></div><div id="map-caption" class="map-caption">Salvador hoje</div><div class="story-legend"><span><i class="dot"></i> referência localizada</span><span><i class="ring"></i> localização indeterminada</span></div></div><div id="story-steps" class="story-steps">
+<article class="story-step" data-scene="today"><p class="scene-no">01</p><p class="kicker">Salvador hoje</p><h2>A cidade parece começar pelas ruas.</h2><p>Mas os documentos fundiários preservam uma camada anterior à paisagem atual. A investigação parte da Graça, Barra e Vitória para seguir esses rastros.</p></article>
+<article class="story-step" data-scene="graca"><p class="scene-no">02</p><p class="kicker">O nó</p><h2>Mosteiro de Nossa Senhora da Graça.</h2><p>O complexo religioso é uma âncora da história, não o limite das terras. A partir dele, documentos registram aforamentos e relações fundiárias espalhadas por diferentes pontos da cidade.</p></article>
+<article class="story-step" data-scene="mato"><p class="scene-no">03</p><p class="kicker">1827–1832</p><h2>Mato da Costa.</h2><p>Em 1827 aparece um pedido de aforamento do chamado Mato da Costa, situado na Graça. Em 1832, a autorização avança. Sabemos que o território existiu documentalmente; ainda não sabemos desenhar seu perímetro.</p><p class="source-note">Códice 158, fólios 11 e 24 — referência recuperada em literatura acadêmica; consulta ao original pendente.</p></article>
+<article class="story-step" data-scene="aforamentos"><p class="scene-no">04</p><p class="kicker">1832</p><h2>Dividir o chão.</h2><p>Outro registro menciona terrenos de 8 × 30 braças e 30 × 40 braças na Graça. As dimensões existem. A localização exata, não. Por isso, eles não recebem um pin inventado.</p><p class="source-note">Códice 165, fólio 64 — referência recuperada em literatura acadêmica; consulta ao original pendente.</p></article>
+<article class="story-step" data-scene="1930"><p class="scene-no">05</p><p class="kicker">c. 1930</p><h2>557 terrenos foreiros.</h2><p>Pesquisa baseada no acervo beneditino registra, para Graça e Barra, 557 terrenos foreiros — 521 edificados — distribuídos por 24 ruas e três praças. A escala muda: não estamos seguindo um único imóvel, mas uma rede territorial.</p></article>
+<article class="story-step" data-scene="clemente"><p class="scene-no">06</p><p class="kicker">1956</p><h2>A cidade loteia.</h2><p>O Loteamento Clemente Mariani foi aprovado com 30 lotes. A documentação e a cartografia histórica o relacionam à área das atuais João Pondé, Raul Drumond e Presidente Kennedy.</p><div class="pending-geometry">PERÍMETRO EM RECONSTRUÇÃO · QGIS</div></article>
+<article class="story-step" data-scene="lote25"><p class="scene-no">07</p><p class="kicker">Lote 25</p><h2>Do lote ao apartamento.</h2><p>Documentos descrevem um terreno de 648,37 m²: 20 metros de frente para a atual João Pondé, lotes 24 e 26 nas laterais e fundos confrontando com imóvel da Rua Oito de Dezembro. O terreno é descrito como foreiro ao Mosteiro da Graça.</p><p class="source-note">Matrículas 16.511 e 16.505 · endereço contemporâneo: Rua Dr. João Pondé, 216.</p></article>
+<article class="story-step" data-scene="network"><p class="scene-no">08</p><p class="kicker">O rastro não termina ali</p><h2>Outros documentos, outros endereços.</h2><p>Rodrigues Lima, Morro Ipiranga, o antigo Hospital Espanhol e Jardim Porto da Barra ampliam o campo de investigação. Cada registro é tratado separadamente; a referência a um senhorio histórico não determina, sozinha, a situação jurídica atual.</p><button class="jump-button" type="button" data-target="database">Abrir caderno de evidências ↓</button></article>
+</div></section>
+<section id="database" class="database" aria-labelledby="base-titulo"><div class="section-heading"><p class="kicker">Caderno de evidências</p><h2 id="base-titulo">O que já está documentado</h2><p>O mapa conta a história. Esta base deixa a evidência auditável.</p></div><div class="filters"><button class="filter active" data-filter="todos" aria-pressed="true">Todos</button><button class="filter" data-filter="contemporaneo" aria-pressed="false">Registros contemporâneos</button><button class="filter" data-filter="historico" aria-pressed="false">Rastros históricos</button></div><p id="result-count" class="result-count"></p><div class="database-layout"><div id="record-list" class="record-list"></div><aside id="record-panel" class="record-panel"><p class="panel-placeholder">Selecione um registro para consultar sua ficha.</p></aside></div></section>
+<section class="method"><div class="section-heading"><p class="kicker">Método</p><h2>Precisão também é informação.</h2></div><p class="display-copy">A investigação separa senhorio direto, foreiro, endereço atual, parcela histórica e matrícula. Interseção espacial não é continuidade legal. Quando o documento não permite localizar uma parcela, o mapa assume a incerteza.</p><p><a class="text-link" href="./METODOLOGIA.md">Metodologia completa →</a></p></section></main>
+<footer><p>PLOT. · Laboratório de Investigação, Dados e Narrativas Visuais</p><p>Protótipo V0.2</p></footer>
+<script src="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.js"></script><script type="module" src="./js/app.js"></script></body></html>

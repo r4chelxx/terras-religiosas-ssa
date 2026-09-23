@@ -2,28 +2,157 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "type":"Feature","geometry":null,
-      "properties":{"id":"edificio-rodrigues-lima","titulo":"Edifício Rodrigues Lima","instituicao":"Mosteiro de Nossa Senhora da Graça","tipo_instituicao":"mosteiro","tipo_registro":"contemporaneo","relacao_fundiaria":"Foreiro ao Mosteiro de Nossa Senhora da Graça","senhorio_direto":null,"foreiro":null,"data_inicio":null,"data_fim":null,"toponimo_historico":null,"endereco_atual":"Av. Sete de Setembro, 3435 — Ladeira da Barra","descricao_territorial":"terreno de 220 m²","area":"220 m²","dimensoes":"11 × 20 m","unidade_historica":null,"valor_foro":null,"periodicidade":null,"forma_aquisicao":null,"documento_aquisicao":null,"fonte_primaria":null,"folio":null,"fonte_secundaria":null,"tipo_fonte_secundaria":null,"url_fonte":null,"matricula_atual":"2.887","status_enfiteuse_atual":null,"grau_correspondencia_geografica":"endereço conhecido; limites do lote ainda não reconstruídos","status_documental":"registro contemporâneo a conferir","ultima_verificacao":null,"observacoes":"A relação documental não constitui prova de propriedade atual do mosteiro."}
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "lote-25-clemente-mariani",
+        "titulo": "Lote 25 — Loteamento Clemente Mariani",
+        "instituicao": "Mosteiro de Nossa Senhora da Graça",
+        "tipo_registro": "contemporaneo",
+        "relacao_fundiaria": "Terreno descrito em documentação registral/judicial como foreiro ao Mosteiro de Nossa Senhora da Graça",
+        "endereco_atual": "Rua Doutor João Pondé, 216 — Barra",
+        "area": "648,37 m² (declarados)",
+        "dimensoes": "20 m de frente; 29,46 m; 24,98 m; 28 m de fundos",
+        "matricula_atual": "16.511 / 16.505",
+        "grau_correspondencia_geografica": "endereço conhecido; lote em reconstrução",
+        "status_documental": "documentação contemporânea localizada",
+        "observacoes": "Frente para João Pondé; laterais com lotes 24 e 26; fundos confrontando com imóvel da Rua Oito de Dezembro. As quatro medidas retas não reproduzem exatamente a área declarada; não forçar a geometria."
+      }
     },
     {
-      "type":"Feature","geometry":null,
-      "properties":{"id":"morro-ipiranga-silvino-marques","titulo":"Morro Ipiranga / Rua Silvino Marques","instituicao":"Mosteiro de Nossa Senhora da Graça","tipo_instituicao":"mosteiro","tipo_registro":"contemporaneo","relacao_fundiaria":"Foreiro ao Mosteiro de Nossa Senhora da Graça","senhorio_direto":null,"foreiro":null,"data_inicio":null,"data_fim":null,"toponimo_historico":null,"endereco_atual":"Rua Silvino Marques, 329","descricao_territorial":null,"area":"aproximadamente 1.235 m²","dimensoes":null,"unidade_historica":null,"valor_foro":null,"periodicidade":null,"forma_aquisicao":null,"documento_aquisicao":null,"fonte_primaria":null,"folio":null,"fonte_secundaria":null,"tipo_fonte_secundaria":null,"url_fonte":null,"matricula_atual":"49.294","status_enfiteuse_atual":null,"grau_correspondencia_geografica":"endereço conhecido; limites do lote ainda não reconstruídos","status_documental":"registro contemporâneo a conferir","ultima_verificacao":null,"observacoes":"A relação documental não constitui prova de propriedade atual do mosteiro."}
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "edificio-rodrigues-lima",
+        "titulo": "Edifício Rodrigues Lima",
+        "instituicao": "Mosteiro de Nossa Senhora da Graça",
+        "tipo_registro": "contemporaneo",
+        "relacao_fundiaria": "Terreno descrito como foreiro ao Mosteiro de Nossa Senhora da Graça",
+        "endereco_atual": "Av. Sete de Setembro, 3435 — Ladeira da Barra",
+        "area": "220 m²",
+        "dimensoes": "11 × 20 m",
+        "matricula_atual": "2.887",
+        "grau_correspondencia_geografica": "endereço conhecido; perímetro não georreferenciado",
+        "status_documental": "descrição judicial localizada",
+        "observacoes": "A descrição registra Clemente Mariani Bittencourt como confrontante em duas faces. Isso é uma relação espacial, não cadeia de titularidade."
+      }
     },
     {
-      "type":"Feature","geometry":null,
-      "properties":{"id":"antigo-hospital-espanhol","titulo":"Antigo Hospital Espanhol","instituicao":"Mosteiro de Nossa Senhora da Graça","tipo_instituicao":"mosteiro","tipo_registro":"contemporaneo","relacao_fundiaria":"Terreno descrito em documentação contemporânea como enfitêutico/foreiro ao Mosteiro de Nossa Senhora da Graça","senhorio_direto":null,"foreiro":null,"data_inicio":null,"data_fim":null,"toponimo_historico":null,"endereco_atual":null,"descricao_territorial":null,"area":null,"dimensoes":null,"unidade_historica":null,"valor_foro":null,"periodicidade":null,"forma_aquisicao":null,"documento_aquisicao":null,"fonte_primaria":null,"folio":null,"fonte_secundaria":null,"tipo_fonte_secundaria":null,"url_fonte":null,"matricula_atual":"42.177","status_enfiteuse_atual":null,"grau_correspondencia_geografica":"localização exata em investigação","status_documental":"ato público identificado; cadeia registral ainda em investigação","ultima_verificacao":null,"observacoes":"A relação documental não constitui prova de propriedade atual do mosteiro."}
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "morro-ipiranga-silvino-marques",
+        "titulo": "Morro Ipiranga / Rua Silvino Marques",
+        "instituicao": "Mosteiro de Nossa Senhora da Graça",
+        "tipo_registro": "contemporaneo",
+        "relacao_fundiaria": "Terreno descrito como foreiro ao Mosteiro de Nossa Senhora da Graça",
+        "endereco_atual": "Rua Silvino Marques, 329 — Barra",
+        "area": "1.235 m²",
+        "matricula_atual": "49.294",
+        "grau_correspondencia_geografica": "endereço conhecido; perímetro não reconstruído",
+        "status_documental": "documento contemporâneo localizado",
+        "observacoes": "A redação documental sobre posterior absorção pelo Mosteiro de São Bento permanece como alegação da fonte até recuperação do ato correspondente."
+      }
     },
     {
-      "type":"Feature","geometry":null,
-      "properties":{"id":"avenida-princesa-isabel-179","titulo":"Av. Princesa Isabel","instituicao":"Mosteiro de São Bento","tipo_instituicao":"mosteiro","tipo_registro":"contemporaneo","relacao_fundiaria":"Foreiro ao Mosteiro de São Bento","senhorio_direto":null,"foreiro":null,"data_inicio":null,"data_fim":null,"toponimo_historico":null,"endereco_atual":"Av. Princesa Isabel, 179","descricao_territorial":null,"area":"aproximadamente 1.744,37 m²","dimensoes":null,"unidade_historica":null,"valor_foro":null,"periodicidade":null,"forma_aquisicao":null,"documento_aquisicao":null,"fonte_primaria":null,"folio":null,"fonte_secundaria":null,"tipo_fonte_secundaria":null,"url_fonte":null,"matricula_atual":"19.258","status_enfiteuse_atual":null,"grau_correspondencia_geografica":"endereço conhecido; limites do lote ainda não reconstruídos","status_documental":"registro contemporâneo a conferir","ultima_verificacao":null,"observacoes":"A relação documental não constitui prova de propriedade atual do mosteiro."}
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.5328717,
+          -13.0062004
+        ]
+      },
+      "properties": {
+        "id": "antigo-hospital-espanhol",
+        "titulo": "Antigo Hospital Espanhol",
+        "instituicao": "Mosteiro de Nossa Senhora da Graça",
+        "tipo_registro": "contemporaneo",
+        "relacao_fundiaria": "Imóvel descrito em ato de 2014 como enfitêutico/foreiro ao Mosteiro de Nossa Senhora da Graça",
+        "endereco_atual": "Av. Sete de Setembro, 4161 — Barra",
+        "area": "20.965,52 m²",
+        "matricula_atual": "42.177",
+        "grau_correspondencia_geografica": "ponto de referência do endereço atual; não é perímetro do terreno",
+        "status_documental": "ato público e endereço contemporâneo identificados",
+        "observacoes": "O ponto representa o endereço atual. A situação jurídica presente não é inferida da descrição histórica."
+      }
     },
     {
-      "type":"Feature","geometry":null,
-      "properties":{"id":"mato-da-costa-1827-1832","titulo":"Mato da Costa","instituicao":"Mosteiro de Nossa Senhora da Graça","tipo_instituicao":"mosteiro","tipo_registro":"historico","relacao_fundiaria":"pedido de aforamento","senhorio_direto":null,"foreiro":null,"data_inicio":"1827","data_fim":"1832","toponimo_historico":"Mato da Costa","endereco_atual":null,"descricao_territorial":"Referência a pedido de aforamento relacionado ao chamado Mato da Costa.","area":null,"dimensoes":null,"unidade_historica":null,"valor_foro":null,"periodicidade":null,"forma_aquisicao":null,"documento_aquisicao":null,"fonte_primaria":"Códice 158","folio":"fólios 11 e 24","fonte_secundaria":"Fonte arquivística indicada na literatura","tipo_fonte_secundaria":null,"url_fonte":null,"matricula_atual":null,"status_enfiteuse_atual":null,"grau_correspondencia_geografica":"topônimo histórico; localização exata em investigação","status_documental":"em investigação","ultima_verificacao":null,"observacoes":null}
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "jardim-porto-barra",
+        "titulo": "Jardim Porto da Barra",
+        "instituicao": "Mosteiro de São Bento",
+        "tipo_registro": "contemporaneo",
+        "relacao_fundiaria": "Terreno descrito como foreiro ao Mosteiro de São Bento",
+        "endereco_atual": "Av. Princesa Isabel, 179 — Barra",
+        "area": "1.744,37 m²",
+        "matricula_atual": "23.991; matrícula-mãe 19.258",
+        "grau_correspondencia_geografica": "endereço conhecido; perímetro depende da matrícula-mãe",
+        "status_documental": "documentação contemporânea localizada",
+        "observacoes": "Não desenhar o perímetro antes de recuperar a descrição territorial da matrícula-mãe 19.258."
+      }
     },
     {
-      "type":"Feature","geometry":null,
-      "properties":{"id":"graca-aforamentos-1832","titulo":"Graça — aforamentos de 1832","instituicao":"Mosteiro de Nossa Senhora da Graça","tipo_instituicao":"mosteiro","tipo_registro":"historico","relacao_fundiaria":"aforamento","senhorio_direto":null,"foreiro":null,"data_inicio":"1832","data_fim":"1832","toponimo_historico":"Graça","endereco_atual":null,"descricao_territorial":"A documentação secundária registra terrenos na região da Graça com dimensões expressas em braças, incluindo referência a terreno de 8 × 30 braças e outro pedido de 30 × 40 braças.","area":null,"dimensoes":"8 × 30 braças; 30 × 40 braças","unidade_historica":"braça","valor_foro":null,"periodicidade":null,"forma_aquisicao":null,"documento_aquisicao":null,"fonte_primaria":"Códice 165","folio":"fólio 64","fonte_secundaria":"documentação secundária","tipo_fonte_secundaria":null,"url_fonte":null,"matricula_atual":null,"status_enfiteuse_atual":null,"grau_correspondencia_geografica":"região conhecida; parcela ainda não localizada","status_documental":"em investigação","ultima_verificacao":null,"observacoes":null}
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "mato-da-costa-1827-1832",
+        "titulo": "Mato da Costa",
+        "instituicao": "Mosteiro de Nossa Senhora da Graça",
+        "tipo_registro": "historico",
+        "relacao_fundiaria": "pedido de aforamento e autorização posterior",
+        "data_inicio": "1827",
+        "data_fim": "1832",
+        "toponimo_historico": "Mato da Costa — Graça",
+        "fonte_primaria": "Códice 158",
+        "folio": "fólios 11 e 24",
+        "grau_correspondencia_geografica": "território histórico sem localização exata",
+        "status_documental": "confirmado em literatura; fonte primária pendente de consulta",
+        "observacoes": "Não publicar pin preciso até reconstrução territorial."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "graca-aforamentos-1832",
+        "titulo": "Graça — aforamentos de 1832",
+        "instituicao": "Mosteiro de Nossa Senhora da Graça",
+        "tipo_registro": "historico",
+        "relacao_fundiaria": "aforamento",
+        "data_inicio": "1832",
+        "data_fim": "1832",
+        "toponimo_historico": "Graça",
+        "dimensoes": "8 × 30 braças; 30 × 40 braças",
+        "fonte_primaria": "Códice 165",
+        "folio": "fólio 64",
+        "grau_correspondencia_geografica": "região conhecida; parcelas não localizadas",
+        "status_documental": "confirmado em literatura; fonte primária pendente de consulta",
+        "observacoes": "Tratado como evento documental, não como parcela georreferenciada."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.52382,
+          -12.999528
+        ]
+      },
+      "properties": {
+        "id": "mosteiro-graca",
+        "titulo": "Mosteiro de Nossa Senhora da Graça",
+        "instituicao": "Mosteiro de Nossa Senhora da Graça",
+        "tipo_registro": "historico",
+        "relacao_fundiaria": "âncora institucional",
+        "endereco_atual": "Graça — Salvador",
+        "grau_correspondencia_geografica": "localização do complexo religioso; não representa extensão das terras",
+        "status_documental": "localização institucional confirmada",
+        "observacoes": "A âncora localiza o mosteiro. Não deve ser interpretada como limite do patrimônio territorial."
+      }
     }
   ]
 }

@@ -1,8 +1,32 @@
 [
-  {"id":"sec-xvi","rotulo":"séc. XVI","titulo":"SÉCULO XVI","texto":"Formação inicial de patrimônios religiosos por doações, sesmarias e outras formas de aquisição. Os limites exatos ainda precisam ser reconstruídos documentalmente."},
-  {"id":"1628","rotulo":"1628","titulo":"1628","texto":"Documentação secundária aponta a ampliação do patrimônio associado ao Mosteiro de Nossa Senhora da Graça por doação de Lourenço de Brito Correa. A cadeia documental primária ainda será incorporada à ferramenta."},
-  {"id":"sec-xviii","rotulo":"séc. XVIII","titulo":"SÉCULO XVIII","texto":"Livros beneditinos registram relações de aforamento com nomes de foreiros, localizações, dimensões, construções e valores. Esses documentos poderão permitir a reconstrução de parcelas históricas."},
-  {"id":"1832","rotulo":"1832","titulo":"1832","texto":"A documentação registra novos aforamentos na região da Graça, inclusive terrenos medidos em braças e referências territoriais como Mato da Costa."},
-  {"id":"1930","rotulo":"1930","titulo":"1930","texto":"A pesquisa de Maria Herminia Hernández registra 557 terrenos foreiros em Graça/Barra, distribuídos por 24 ruas e três praças. Desses, 521 estavam edificados."},
-  {"id":"2026","rotulo":"2026","titulo":"2026","texto":"Documentos contemporâneos ainda registram relações enfitêuticas. O objetivo da investigação é conectar esses rastros atuais à genealogia histórica dos terrenos sem presumir continuidade onde ela não estiver comprovada."}
+  {
+    "id": "1827",
+    "rotulo": "1827",
+    "titulo": "MATO DA COSTA",
+    "texto": "João Crisóstomo da Silva pediu o aforamento do chamado Mato da Costa, situado na Graça. A localização exata ainda não foi reconstruída."
+  },
+  {
+    "id": "1832",
+    "rotulo": "1832",
+    "titulo": "AFORAR O CHÃO",
+    "texto": "O Capítulo autorizou o avanço do aforamento do Mato da Costa. A documentação também registra terrenos de 8 × 30 e 30 × 40 braças na Graça. Nesta versão eles aparecem como eventos documentais, não como parcelas localizadas."
+  },
+  {
+    "id": "1930",
+    "rotulo": "1930",
+    "titulo": "UMA REDE DE FOREIROS",
+    "texto": "A pesquisa de Maria Herminia Hernández registra 557 terrenos foreiros em Graça/Barra, 521 deles edificados, distribuídos por 24 ruas e três praças."
+  },
+  {
+    "id": "1956",
+    "rotulo": "1956",
+    "titulo": "CLEMENTE MARIANI",
+    "texto": "A Prefeitura aprovou o Loteamento Clemente Mariani, com 30 lotes. A investigação reconstrói sua relação com as atuais João Pondé, Raul Drumond e Presidente Kennedy."
+  },
+  {
+    "id": "hoje",
+    "rotulo": "hoje",
+    "titulo": "O RASTRO CONTINUA NOS DOCUMENTOS",
+    "texto": "Matrículas, editais e atos públicos contemporâneos ainda carregam referências a terrenos foreiros. Cada caso é tratado individualmente: endereço atual não prova perímetro histórico nem situação jurídica presente."
+  }
 ]
