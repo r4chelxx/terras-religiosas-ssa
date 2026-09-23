@@ -61,7 +61,10 @@
       "meta": "Autoria, acervo e crédito a confirmar",
       "status": "Conteúdo em apuração; não publicado como fato"
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "mediaIds": [
+      "film-1949-salvador"
+    ]
   },
   {
     "id": "mosteiro-graca-historia",
@@ -150,7 +153,10 @@
       "meta": "A. Botelho Film · 1924 · Campo da Graça",
       "status": "Página e direitos no Wikimedia Commons ainda devem ser auditados"
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "mediaIds": [
+      "film-1924-principe"
+    ]
   },
   {
     "id": "rede-1930",
@@ -192,7 +198,11 @@
       "meta": "Tupi Filmes Brasileiros / INCE, direção Humberto Mauro",
       "status": "Visionamento, decupagem e direitos pendentes"
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "mediaIds": [
+      "film-1939-tradicao",
+      "film-1949-salvador"
+    ]
   },
   {
     "id": "lachenmayer",

@@ -1,1 +1,23 @@
-export function initScrolly(scenes,onScene){const steps=[...document.querySelectorAll('.story-step')],byId=Object.fromEntries(scenes.map(s=>[s.id,s]));const activate=step=>{steps.forEach(s=>s.classList.toggle('active',s===step));const scene=byId[step.dataset.sceneId];onScene(scene);step.closest('.map-chapter').querySelector('.map-caption').textContent=scene.mapCaption||scene.title};const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&activate(e.target)),{rootMargin:'-35% 0px -45%',threshold:0});steps.forEach(s=>io.observe(s));addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-innerHeight;document.querySelector('#progress').style.width=`${max?scrollY/max*100:0}%`},{passive:true})}
+export function initScrolly(scenes, onScene) {
+  const steps = [...document.querySelectorAll('.story-step')];
+  const scenesById = Object.fromEntries(scenes.map(scene => [scene.id, scene]));
+
+  const activate = step => {
+    steps.forEach(item => item.classList.toggle('active', item === step));
+    const scene = scenesById[step.dataset.sceneId];
+    onScene(scene);
+    step.closest('.map-chapter').querySelector('.map-caption').textContent =
+      scene.mapCaption || scene.title;
+  };
+
+  const observer = new IntersectionObserver(
+    entries => entries.forEach(entry => entry.isIntersecting && activate(entry.target)),
+    { rootMargin: '-35% 0px -45%', threshold: 0 },
+  );
+  steps.forEach(step => observer.observe(step));
+
+  addEventListener('scroll', () => {
+    const maximum = document.documentElement.scrollHeight - innerHeight;
+    document.querySelector('#progress').style.width = `${maximum ? scrollY / maximum * 100 : 0}%`;
+  }, { passive: true });
+}

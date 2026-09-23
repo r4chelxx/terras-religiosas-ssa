@@ -1,8 +1,91 @@
-let maps=[];
-export function initMap(geojson,onSelect){
- document.querySelectorAll('.map').forEach((container,index)=>{const map=new maplibregl.Map({container,style:'https://tiles.openfreemap.org/styles/positron',center:[-38.526,-13.003],zoom:13.2,attributionControl:true});maps[index]=map;
- map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right');
- map.on('load',()=>{const located={...geojson,features:geojson.features.filter(f=>f.geometry).map(f=>({...f,id:f.properties.id}))};map.addSource('records',{type:'geojson',data:located,promoteId:'id'});map.addLayer({id:'record-halo',type:'circle',source:'records',paint:{'circle-radius':16,'circle-color':'#F47A20','circle-opacity':0}});map.addLayer({id:'records',type:'circle',source:'records',paint:{'circle-radius':7,'circle-color':'#F47A20','circle-stroke-color':'#0D0D0D','circle-stroke-width':1.5,'circle-opacity':0}});map.on('click','records',e=>onSelect(e.features[0].properties.id));map.on('mouseenter','records',()=>map.getCanvas().style.cursor='pointer');map.on('mouseleave','records',()=>map.getCanvas().style.cursor='')});});
+const maps = [];
+const pendingScenes = new Map();
+
+function idsFilter(ids = []) {
+  return ['in', ['get', 'id'], ['literal', ids]];
 }
-export function setScene(scene){const map=maps[scene?.mapIndex];if(!map||!scene?.camera)return;const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;map.easeTo({...scene.camera,duration:reduced?0:700});const ids=scene.visibleRecordIds||[];if(map.getLayer('records'))for(const layer of ['records','record-halo'])map.setPaintProperty(layer,'circle-opacity',['case',['in',['get','id'],['literal',ids]],layer==='records'?1:.2,0]);}
-export function focusRecord(feature){const map=maps.at(-1);if(map&&feature?.geometry)map.easeTo({center:feature.geometry.coordinates,zoom:16,duration:matchMedia('(prefers-reduced-motion: reduce)').matches?0:600})}
+
+function applyScene(map, scene) {
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  map.easeTo({ ...scene.camera, duration: reducedMotion ? 0 : 700 });
+
+  if (!map.getLayer('records')) {
+    pendingScenes.set(scene.mapIndex, scene);
+    return;
+  }
+
+  const filter = idsFilter(scene.visibleRecordIds);
+  map.setFilter('records', filter);
+  map.setFilter('record-halo', filter);
+  pendingScenes.delete(scene.mapIndex);
+}
+
+export function initMap(geojson, onSelect) {
+  if (!globalThis.maplibregl) {
+    throw new Error('MapLibre não foi carregado');
+  }
+
+  const located = {
+    ...geojson,
+    features: geojson.features
+      .filter(feature => feature.geometry?.type === 'Point')
+      .map(feature => ({ ...feature, id: feature.properties.id })),
+  };
+
+  document.querySelectorAll('.map').forEach((container, index) => {
+    const map = new maplibregl.Map({
+      container,
+      style: 'https://tiles.openfreemap.org/styles/positron',
+      center: [-38.526, -13.003],
+      zoom: 13.2,
+      attributionControl: true,
+    });
+    maps[index] = map;
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+
+    map.on('load', () => {
+      map.addSource('records', { type: 'geojson', data: located, promoteId: 'id' });
+      map.addLayer({
+        id: 'record-halo',
+        type: 'circle',
+        source: 'records',
+        filter: idsFilter(),
+        paint: { 'circle-radius': 16, 'circle-color': '#F47A20', 'circle-opacity': 0.2 },
+      });
+      map.addLayer({
+        id: 'records',
+        type: 'circle',
+        source: 'records',
+        filter: idsFilter(),
+        paint: {
+          'circle-radius': 7,
+          'circle-color': '#F47A20',
+          'circle-stroke-color': '#0D0D0D',
+          'circle-stroke-width': 1.5,
+        },
+      });
+      map.on('click', 'records', event => onSelect(event.features[0].properties.id));
+      map.on('mouseenter', 'records', () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', 'records', () => { map.getCanvas().style.cursor = ''; });
+
+      const pending = pendingScenes.get(index);
+      if (pending) applyScene(map, pending);
+    });
+  });
+}
+
+export function setScene(scene) {
+  const map = maps[scene?.mapIndex];
+  if (!map || !scene?.camera) return;
+  applyScene(map, scene);
+}
+
+export function focusRecord(feature) {
+  const map = maps.at(-1);
+  if (!map || !feature?.geometry) return;
+  map.easeTo({
+    center: feature.geometry.coordinates,
+    zoom: 16,
+    duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 600,
+  });
+}
