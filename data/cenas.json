@@ -242,10 +242,8 @@
     "visibleRecordIds": [],
     "evidenceType": "reconstructed",
     "mapCaption": "Clemente Mariani · geometria ainda não publicada",
-    "note": "[GEOMETRIA — RECONSTRUÇÃO QGIS PENDENTE]. A relação com João Pondé, Raul Drumond e Presidente Kennedy não constitui um perímetro.",
-    "sourceIds": [
-      "lachenmayer"
-    ]
+    "note": "[GEOMETRIA — RECONSTRUÇÃO QGIS PENDENTE]. A relação com João Pondé, Raul Drumond e Presidente Kennedy não constitui um perímetro. A referência documental do Inventário de Loteamentos/OCEPLAN ou da documentação municipal ainda precisa ser incorporada ao catálogo de fontes.",
+    "sourceIds": []
   },
   {
     "id": "lote-25",
@@ -312,7 +310,7 @@
     "eyebrow": "Instituição · São Bento",
     "title": "Uma ponte que não apaga as diferenças",
     "body": "Jardim Porto da Barra abre uma futura micro-história sobre o Mosteiro de São Bento, sem confundi-lo com o Mosteiro da Graça.",
-    "known": "O registro do Jardim Porto da Barra descreve o terreno como foreiro ao Mosteiro de São Bento.",
+    "known": "Dado de trabalho: o registro do Jardim Porto da Barra descreve o terreno como foreiro ao Mosteiro de São Bento. A fonte documental contemporânea ainda precisa ser incorporada ao catálogo de fontes.",
     "unknown": "A matrícula-mãe 19.258 e a descrição territorial ainda precisam ser recuperadas antes de qualquer perímetro.",
     "media": {
       "placeholder": "[DOCUMENTO — DIGITALIZAÇÃO PENDENTE]",
@@ -320,8 +318,6 @@
       "meta": "Matrícula 23.991 / matriz 19.258",
       "status": "Ponte narrativa em apuração"
     },
-    "sourceIds": [
-      "hernandez"
-    ]
+    "sourceIds": []
   }
 ]

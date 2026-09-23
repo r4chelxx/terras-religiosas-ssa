@@ -79,13 +79,3 @@ export function setScene(scene) {
   if (!map || !scene?.camera) return;
   applyScene(map, scene);
 }
-
-export function focusRecord(feature) {
-  const map = maps.at(-1);
-  if (!map || !feature?.geometry) return;
-  map.easeTo({
-    center: feature.geometry.coordinates,
-    zoom: 16,
-    duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 600,
-  });
-}
