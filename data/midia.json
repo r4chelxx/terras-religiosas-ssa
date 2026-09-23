@@ -1,0 +1,93 @@
+{
+  "version": "0.2",
+  "updated": "2026-09-23",
+  "principle": "Material audiovisual só entra no produto após confirmação de conteúdo, acesso e direitos. Catalogação temática não substitui visionamento.",
+  "items": [
+    {
+      "id": "film-1924-principe",
+      "title": "O Príncipe Herdeiro da Itália em Terras do Brasil",
+      "year": 1924,
+      "creator": "A. Botelho Film",
+      "duration": "40:49 na cópia Wikimedia Commons",
+      "status": "prioridade_alta_acesso_aberto",
+      "verified_content": [
+        "Avenida Oceânica",
+        "Campo da Graça",
+        "ruas de Salvador",
+        "Baía de Todos os Santos",
+        "Forte de São Marcelo",
+        "porto"
+      ],
+      "story_use": [
+        "interlúdio Campo da Graça antes da verticalização",
+        "transição paisagem histórica → cartografia"
+      ],
+      "access": "Wikimedia Commons possui cópia integral; Cinemateca/BCC cataloga conteúdo examinado.",
+      "rights_note": "A página do arquivo no Commons deve ser auditada e registrada antes de reutilização; manter crédito e proveniência.",
+      "timestamp_status": "pendente de decupagem quadro a quadro; não publicar minutagem estimada."
+    },
+    {
+      "id": "film-1939-tradicao",
+      "title": "Cidade do Salvador: Tradição e Progresso",
+      "year": 1939,
+      "creator": "Tupi Filmes Brasileiros",
+      "duration": "5:48",
+      "status": "prioridade_alta_direitos_pendentes",
+      "verified_content": [
+        "Avenida Presidente Vargas, Barra",
+        "Avenida Sete de Setembro",
+        "Campo Grande",
+        "obras públicas",
+        "bondes",
+        "modernização urbana"
+      ],
+      "story_use": [
+        "interlúdio transformação urbana entre rede de foros e loteamentos"
+      ],
+      "access": "BCC/Cinemateca possui ficha e acesso indicado no catálogo.",
+      "rights_note": "Uso de trecho depende de verificação/licenciamento com o acervo.",
+      "timestamp_status": "pendente de visionamento da cópia."
+    },
+    {
+      "id": "film-1949-salvador",
+      "title": "Cidade do Salvador",
+      "year": 1949,
+      "creator": "INCE; direção Humberto Mauro",
+      "duration": "21:00",
+      "status": "prioridade_maxima_direitos_pendentes",
+      "verified_content": [
+        "Porto da Barra",
+        "Praia da Vitória",
+        "Avenida Sete de Setembro",
+        "Igreja da Graça",
+        "pinturas e sepultura de Catharina Álvares de Paraguassu",
+        "Convento de São Bento",
+        "bairros residenciais com casas modernas"
+      ],
+      "story_use": [
+        "micro-história Catarina/Graça",
+        "passagem instituição religiosa → território",
+        "paisagem Vitória/Barra em 1949"
+      ],
+      "access": "CTAv disponibiliza link oficial para assistir; BCC/Cinemateca possui descrição detalhada.",
+      "rights_note": "CTAv oferece serviço específico de licenciamento de trechos; disponibilidade para assistir não equivale a licença de republicação.",
+      "timestamp_status": "pendente de decupagem do vídeo oficial."
+    },
+    {
+      "id": "film-1953-obras-novas",
+      "title": "Obras Novas: Evolução de uma Indústria",
+      "year": 1953,
+      "creator": "Companhia Cinematográfica Vera Cruz; direção Lima Barreto",
+      "duration": "18:30",
+      "status": "descartado_para_salvador_ate_nova_evidencia",
+      "verified_content": [
+        "construção e funcionamento dos estúdios Vera Cruz em São Bernardo do Campo"
+      ],
+      "story_use": [],
+      "access": "Há cópia online e ficha BCC.",
+      "rights_note": "não aplicável ao storyboard atual",
+      "timestamp_status": "não decupar",
+      "warning": "A ficha BCC associa termos como Campo da Graça e Avenida Oceânica, mas a sinopse oficial e a cópia online tratam de São Paulo/São Bernardo. Esses assuntos parecem metadados contaminados. Não usar como evidência de imagens de Salvador."
+    }
+  ]
+}
